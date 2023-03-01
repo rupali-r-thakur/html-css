@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.box-container {
+  background-color: rgb(142, 214, 190);
+  height: 100%;
+  width: 30%;
+  border: 5px solid rgb(6, 6, 56);
+}
+.image-container {
+  height: 150px;
+  width: 150px;
+  /* background-color: red; */
+  margin-left: 25px;
+  margin-top: 25px;
+  border-radius: 70px;
+  border: none;
+}
+img {
+  height: 151px;
+  width: 151px;
+  border-radius: 70px;
+  border: none;
+}
+.nameDate-container {
+  /* background-color:green ; */
+  height: 10%;
+  width: 100%;
+  /* margin-right: 0; */
+  float: right;
+  margin-bottom: 15%;
+}
+.name {
+  float: right;
+}
+.date {
+  /* margin-top: 5%; */
+  float: right;
+  margin-left: 30%;
+}
+.about-container {
+  /* background-color: red; */
+  width: 100%;
+
+  /* margin-top: 60px; */
+  font-family: "Dancing Script", cursive;
+  font-family: "Edu QLD Beginner", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+.workcontainer {
+  margin-top: 20px;
+  font-family: "Dancing Script", cursive;
+  font-family: "Edu QLD Beginner", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+ul {
+  margin-left: 20px;
+}
+li {
+  font-family: "Dancing Script", cursive;
+  font-family: "Edu QLD Beginner", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+}
+p {
+  font-family: "Dancing Script", cursive;
+  font-family: "Edu QLD Beginner", cursive;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+}
